@@ -1,13 +1,18 @@
+GIT
+  remote: https://github.com/cloudhead/toto.git
+  revision: 31ce1d605526ad2003c58b8494d9f868acf16dc0
+  specs:
+    toto (0.4.9)
+      builder
+      rack
+      rdiscount
+
 GEM
   remote: http://rubygems.org/
   specs:
     builder (3.2.2)
     rack (1.6.0)
     rdiscount (2.1.8)
-    toto (0.4.9)
-      builder
-      rack
-      rdiscount
 
 PLATFORMS
   ruby
@@ -15,4 +20,4 @@ PLATFORMS
 DEPENDENCIES
   builder
   rdiscount
-  toto
+  toto!
