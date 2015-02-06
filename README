@@ -1,4 +1,6 @@
-dorothy
-=======
+customized toto blog
+====================
 
-A wonderful template for [toto](http://cloudhead.io/toto), the blogging engine.
+Forked [toto](http://cloudhead.io/toto), the blogging engine.
+
+rvm use 2.1-head@rails416
