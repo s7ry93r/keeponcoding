@@ -1,0 +1,14 @@
+---
+title: Test entry for keep on coding
+date: 08/02/2015
+
+It's more about the journey. What an exciting field, where else do you
+let your imagination run wild and then make it become reality. It is
+quite awesome. Very often as developers we lose track of how truly
+blessed we are.
+
+Here is some sample ruby code:
+
+    def under?( num, under_amount )
+       num < under_amount 
+    end

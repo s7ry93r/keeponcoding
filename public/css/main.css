@@ -1,4 +1,4 @@
-html { margin: 20px }
+html { margin: 10px }
 body {
   margin: 0 auto;
   font-family: 'Baskerville', Georgia, Times, serif;
@@ -45,8 +45,8 @@ a:hover {
 body > header > h1 {
 	border-left: 30px solid black;
 	padding-left: 30px;
-  font-size: 201px;
-  margin: 100px 0 15px 0;
+  font-size: 40px;
+  margin: 20px 0 15px 0;
   font-weight: normal;
 }
 .post header {
@@ -79,7 +79,7 @@ body > header > h1 {
 .more a:hover { text-decoration: underline }
 body > header {
 	display: block;
-	padding-top: 30px;
+	padding-top: 0px;
 	line-height: 180px;
 	margin-bottom: 20px;
 }
@@ -93,6 +93,8 @@ ul, li {
 }
 code {
   font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+  color: yellow;
+  background: black;
 }
 pre {
   padding: 20px;

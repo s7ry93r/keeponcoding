@@ -20,7 +20,9 @@ toto = Toto::Server.new do
   # set [:setting], [value]
   # 
   # set :author,    ENV['USER']                               # blog author
+  set :author, 'Rich Krueger'
   # set :title,     Dir.pwd.split('/').last                   # site title
+  set :title, 'Keep on coding'
   # set :root,      "index"                                   # page to load on /
   # set :date,      lambda {|now| now.strftime("%d/%m/%Y") }  # date format for articles
   # set :markdown,  :smart                                    # use markdown + smart-mode
@@ -29,7 +31,7 @@ toto = Toto::Server.new do
   # set :ext,       'txt'                                     # file extension for articles
   # set :cache,      28800                                    # cache duration, in seconds
 
-  set :url, 'https://nameless-dawn-8959'
+  set :url, 'https://keeponcoding.org'
 
   set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
 end
