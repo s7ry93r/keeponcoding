@@ -1,5 +1,6 @@
-PATH
-  remote: ../raktoto
+GIT
+  remote: https://github.com/cloudhead/toto.git
+  revision: 31ce1d605526ad2003c58b8494d9f868acf16dc0
   specs:
     toto (0.4.9)
       builder
