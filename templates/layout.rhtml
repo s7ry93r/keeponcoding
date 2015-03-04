@@ -2,7 +2,9 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
+    <link rel="alternate" type="application/atom+xml" title="<%= title%> - feed" href="/index.xml" />
+    <link rel="stylesheet" type="text/css" href="/css/prettify.css">
+    <script type="text/javascript" src="/js/run_prettify.js?skin=sunburst"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     <title><%= title %></title>
   </head>
@@ -14,8 +16,10 @@
       <%= yield %> 
     </section>
     <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+      powered by a forked version of <a href="http://cloudhead.io/toto">toto</a>
     </footer>
+
+
   </body>
 </html>
 
