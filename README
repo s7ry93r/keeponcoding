@@ -4,3 +4,5 @@ customized toto blog
 Forked [toto](http://cloudhead.io/toto), the blogging engine.
 
 rvm use 2.1-head@rails416
+
+"thin" being used in production ...
