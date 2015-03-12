@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="/css/prettify.css">
     <link rel="shortcut icon" href="/images/favicon.ico"/>
     <script type="text/javascript" src="/js/run_prettify.js?skin=sunburst"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <script type="text/javascript" src="/js/jquery-2.1.3.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title><%= title %></title>
   </head>
   <body>
@@ -14,13 +15,14 @@
       <h1>No matter what ... <strong>Keep on coding</strong></h1>
     </header>
     <section>
-      <%= yield %> 
+      <%= yield %>
     </section>
     <footer>
       powered by a forked version of <a href="http://cloudhead.io/toto">toto</a>
     </footer>
 
-
+    <script>
+     $( "pre" ).addClass( "prettyprint linenums" );
+     </script>
   </body>
 </html>
-

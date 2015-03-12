@@ -8,9 +8,8 @@ quite awesome. Very often as developers we lose track of how truly
 blessed we are.
 
 Here is some sample ruby code:
-<pre class="prettyprint lang-ruby linenums">
-#some test code to test google prettyprint
-def under?( num, under )
-   num < under
-end
-</pre>
+
+    #some test code to test google prettyprint
+    def under?( num, under )
+      num < under
+    end
