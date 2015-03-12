@@ -1,0 +1,23 @@
+---
+title: Aggregation over Composition
+date: 12/03/2015
+
+Been fooling around with [Ninject](http://www.ninject.org) on the .Net platform lately.
+This is an Inversion of Control Container (IOC).
+Love it! However, when I talk to other devs about this
+I sometimes use the word "compose". This then leads me to use the word "composition",
+while blabbing along my merry way. I replay the conversation in my head later ...
+and yes I have been lead down the rabbit hole once again.
+
+IOC and Dependency Injection is founded on Aggregation not Composition.
+This is a post to remind me of this difference.
+
+Aggregate objects live beyond the "death" of the consumer object (i.e. passed in).
+Composite objects live and die with the parent object (i.e. instantiated in the parent).
+
+Couple of mind hacks to keep this straight.
+
+1. Compose will Dispose the "child object".
+2. Aggregate (Adult) and independent. Composite (Child) and dependent.
+
+Lastly, for testing in general strive for Aggregation and try to avoid Composition.
